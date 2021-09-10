@@ -18,6 +18,7 @@ function checkAuth()
 	return $cheker;
 }
 
+
 require_once 'core/route.php';
 
 Route::start(); // запускаем маршрутизатор
